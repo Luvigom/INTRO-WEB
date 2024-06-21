@@ -21,7 +21,7 @@ body{
     height: 45px;
     gap: 200px;
     font-size: 1px;
-    background-color: #971b32;
+    background-image: linear-gradient(to bottom, #520505, #d6445f);
 }
 
 #menu li a:hover {

@@ -34,7 +34,7 @@ function validaNome() {
 }
 */
 
-let nome = window.document.getElementyById('nome')
+let nome = window.document.getElementById('nome')
 let email = document.querySelector('#email')
 let assunto = document.querySelector('#assunto')
 let nomeOk = false
@@ -42,8 +42,9 @@ let emailOk = false
 let assuntoOk = false
 let mapa = document.querySelector('#mapa')
 
-nome.style.width = '100%'
-email.style.width = '100%'
+nome.style.width = '30%'
+email.style.width = '30%'
+assunto.style.width = '30%'
 
 function validaNome(){
     let txt = document.querySelector('#txtNome')
@@ -57,7 +58,7 @@ function validaNome(){
 }
 
 function validaEmail(){
-    let txtEmail = document.querySelector('txtEmail')
+    let txtEmail = document.querySelector('#txtEmail')
     
     if(email.value.indexOf('@')== -1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = 'E-mail inválido'
@@ -91,8 +92,8 @@ function enviar() {
 }
 
 function mapaZoom() {
-    mapa.style.width = '800px'
-    mapa.style.height = '600px'
+    mapa.style.width = '1200px'
+    mapa.style.height = '1000px'
 }
 
 function mapaNormal() {
