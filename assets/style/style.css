@@ -1,60 +1,164 @@
-.menu  {
+
+/*Estilo do Menu*/
+
+body{
+    /*background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);*/
+}
+
+.menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: 2px solid #bd9339;
+    box-shadow: 3px 3px 6px #000000;
+}
+
+.menu-ul  {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 300px;
-    font-size: 24px;
-    background-image: linear-gradient(to bottom, #B33951, #9368B7);
+    align-items: center;
+    height: 45px;
+    gap: 200px;
+    font-size: 1px;
+    background-color: #971b32;
+}
+
+#menu li a:hover {
+    color: purple;
+
 }
 
 a   {
     text-decoration: none;
-    color: #fff;
+    color:#FFE1A8;
 }
 
-.sobre{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.conteudo{
-    font-size: 24px;
-    width: 1800px;
-    margin: auto;
-}
+/*Estilo da Pagina Index*/
 
 h1{
     text-align: center;
+    font-size: 50px;
+    font-family: 'Cinzel', sans-serif;
+    margin-top: 50px; /*Margem do topo*/
+    margin-bottom: 0px; /*Margem abaixo*/
+}
+.conteudo{
+    display: flex;
+    flex-flow: row;
+    justify-content: center ;
+    align-items: center;
+    font-size: 28px;
+    width: 1900px;
+    margin: auto;
+    font-family: 'Cinzel', sans-serif;
+    color:#971b32;
 }
 
-.corpo{
-    font-size: 22px;
+.p-30{
+    padding: 80px;
+}
+
+.br-50{
+border-radius: 50%;
+}
+
+.wh-300{
+    width: 480px;
+    height: 600px;
+}
+
+.protagonista{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 28px;
+    width: 1800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    color:#971b32;
+}
+
+.protagonista p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.protagonista h2 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cidade {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 28px;
     width: 1800px;
     margin: auto;
+    margin-top: 50px;
+    color:#971b32;
 }
 
-.curiosidade {
-    font-size: 22px;
-    width: 1800px;
-    margin: auto;
+.cidade h2, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.right{  
+.rainha-1{  
+    font-family: 'Cinzel', sans-serif;
     text-align: right;
-    font-size: 28px;
+    font-size: 32px;
     display: flex;
     flex-flow: row;
-    justify-content: center;
     width: 1200px;
+    margin-top: 50px;
     align-items: center;
+    color:#971b32;
 }
 
-.left{
+.rainha-2{
+    font-family: 'Cinzel', sans-serif;
     text-align: left;
-    font-size: 28px;
+    font-size: 32px;
     display: flex;
     flex-flow: row;
     justify-content: center;
+    margin-top: 50px;
     width: 1200px;
     align-items: center;
+    justify-content: space-between;
+    color:#971b32;
 }
 
+footer{
+    width: 100%;
+    padding: 10px 30%;
+    background-color: #971b32; 
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
 
+.video-historia{
+    font-family: 'Cinzel', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color:#971b32;
+}
+
+.video-historia h3{
+    margin-bottom: 50px;
+}
+
+.sobre{
+    font-family: 'Cinzel', sans-serif;
+    color:#971b32;
+}
